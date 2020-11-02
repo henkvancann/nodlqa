@@ -1,11 +1,11 @@
 
 
 # Q&A about Nodl
-    + [Disclaimer](#disclaimer)
-    + [List of questions and definitions](#list-of-questions-and-definitions)
-  * [Knowledge you should be confidently applying](#knowledge-you-should-be-confidently-applying)
-  * [Actions you should be comfortable with](#actions-you-should-be-comfortable-with)
-- [Jump table to categories](#jump-table-to-categories)
+  - [Disclaimer](#disclaimer)
+  - [List of questions and definitions](#list-of-questions-and-definitions)
+  - [Knowledge you should be confidently applying](#knowledge-you-should-be-confidently-applying)
+  - [Actions you should be comfortable with](#actions-you-should-be-comfortable-with)
+  - [Jump table to categories](#jump-table-to-categories)
 
 Inspired by questions asked on the open [Nodl Telegram-group]https://web.telegram.org/#/im?p=@nodl_it), but also the open Telegram *Nodl Support* group [here](https://web.telegram.org/#/im?p=@nodl_support) and [Twitter @Nodl_it](https://twitter.com/nodl_it).
 
