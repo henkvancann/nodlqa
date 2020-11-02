@@ -12,7 +12,7 @@ Inspired by questions asked on the open [Nodl Telegram-group]https://web.telegra
 Beware: A Q&A is always *work in progress*. Tips & help welcome.
 
 ### Disclaimer
-None of the respondents in the **open** Telegram groups nor Tweets have been explicitly named as a source, except for ***@Ketominer***, ***@Fonta1n3***. For practical reasons educational images uploaded by Github members, Telegram group members en Tweeps have been downloaded. We de-personalised them by giving images a new name. Under these new names these images have been uploaded to github and used in the Q&A to clarify the questions and answers.
+None of the respondents in the **open** Telegram groups nor Tweets have been explicitly named as a source, except for ***@Ketominer***, ***@maxtannahill***, ***@Fonta1n3*** and ***henkvancann***. For practical reasons educational images uploaded by Github members, Telegram group members en Tweeps have been downloaded. We de-personalised them by giving images a new name. Under these new names these images have been uploaded to github and used in the Q&A to clarify the questions and answers.
 
 We've done our best to protect the privacy of the Github, Telegram group members and Twitter accounts by investigating the images we used. We haven't come across personal identifiable information (pii). However, should we have made a mistake after all, please let us know and we'll correct this immediately.
 
@@ -24,6 +24,7 @@ We've done our best to protect the privacy of the Github, Telegram group members
 - [Q&A section Backup and Restore](#q-a-section-backup-and-restore)
 - [Q&A section Connection](#q-a-section-connection)
 - [Q&A section Node](#q-a-section-node)
+- [Q&A section Tor](#q-a-section-tor)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -71,6 +72,8 @@ We've done our best to protect the privacy of the Github, Telegram group members
 : a type of hardware wallet to store, send and receive crypto currencies
 ##### Datadir
 : The data directory is the location where Bitcoin's data files are stored, including the wallet data file.
+##### Dojo
+: The nodl Dojo lets you pair your Samourai Wallet to your DOJO-running nodl and comes with premium support.
 ##### Esplora 
 : Name of Blockstream's Tor V3 api to broadcast, it falls back to the users node if the api is unavailable. More info [here](https://github.com/Blockstream/esplora)
 ##### FN
@@ -155,6 +158,23 @@ We believe everyone should be running a node. We therefore set upon this mission
 
 # Q&A section Wallets
 
+# Q&A section Dojo
+
 # Q&A section Connection
 
+## Remote access is great! Is an Android phone required? Will any phone (iPhone) with web access work?
+Android or iOS is great. I use both. (@maxtannahill)<br/>
+You can use onion browser on `ios`. ios is actually surprisingly tor friendly; not on the os level but app by app (@ketominer)
+
 # Q&A section Node
+
+# Q&A section Tor
+
+## Can Tor be installed on iOS?
+It can be embedded in apps but not installed as an os level service (@Ketominer)
+
+## Will the documentation that comes with the Nodl `Dojo` instruct how to run Tor on iOS?
+it's not planned currently but it's probably a very good addition to do (@Ketominer)
+
+## How then is running Tor on iOS achieved? Is it simply turned on within the Nodl web interface?
+Yeah. You can also use apps like `Zap` to connect to LND and `FullyNoded` to connect to your bitcoind  (@maxtannahill)
