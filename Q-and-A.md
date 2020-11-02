@@ -28,7 +28,7 @@ We've done our best to protect the privacy of the Github, Telegram group members
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Knowledge you should be confidently applying
-- The definitions above
+- The definitions below
 - BIP32, BIP39, BIP44, BIP47, BIP49, BIP84, BIP174
 - derivation paths, keypools
 ## Actions you should be comfortable with
