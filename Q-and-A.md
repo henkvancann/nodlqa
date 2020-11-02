@@ -60,8 +60,7 @@ We've done our best to protect the privacy of the Github, Telegram group members
 - [Userinterface](#q-a-section-userinterface)
 - [Nodl administrator](#q-a-section-nodl-administrator)
 - [Backup and Restore](#q-a-section-backup-and-restore)
-- [Gordian Wallet](#q-a-section-gordian-wallet)
-- [Fully Noded](#q-a-section-fully-noded)
+- [Wallets](#q-a-section-wallets)
 - [Connection](#q-a-section-connection)
 - [Node](#q-a-section-node)
 
