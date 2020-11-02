@@ -158,6 +158,8 @@ The Gordian Wallets runs under iOS. (@Appelcline)
 
 # Q&A section Userinterface
 
+## Why should I download the supplied PGP Pub Key?
+
 # Q&A section Nodl administrator
 
 ## How can I get to the Nodl administrator? 
