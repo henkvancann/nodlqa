@@ -135,11 +135,12 @@ We've done our best to protect the privacy of the Github, Telegram group members
 
 ## What is Nodl?
 
-It's a full node linked with a mobile wallet. (@Appelcline)
+Nodl is bitcoin-only full node running on a Raspberry Pi 4 with lots of feature (@henkvancann)<br/>
+<img src="./Images/nodl-features.png" alt="feature-list from nodl.it site" border="0" width="600"><br/>
 
 ## What is the purpose of Nodl, why was it constructed?
 
-GordianServer-macOS strives to provide the community with an easy-to-use "one-click" setup for a full node, complete with a purpose-built remote app for securely connecting to your node over Tor from anywhere in the world, providing you with a powerful suite of tools. (@ChristopherA)
+We believe everyone should be running a node. We therefore set upon this mission to make it as easy as possible for you to do so. (site Nodl.it 2020)
 
 ## Why use Nodl?
 
@@ -160,7 +161,7 @@ The Gordian Wallets runs under iOS. (@Appelcline)
 <img src="./Images/nodl-welcome.png" alt="welcome screen after input local url" border="0" width="600"><br/>
 <img src="./Images/nodl-status-public.png" alt="status screen without administrator login" border="0" width="600"><br/>
 
-## Why should I download the supplied PGP Pub Key?
+## Why should I download the supplied PGP Pub Key? What is it good for?
 
 # Q&A section Nodl administrator
 
