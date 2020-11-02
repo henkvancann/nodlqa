@@ -75,11 +75,9 @@ We've done our best to protect the privacy of the Github, Telegram group members
 : Name of Blockstream's Tor V3 api to broadcast, it falls back to the users node if the api is unavailable. More info [here](https://github.com/Blockstream/esplora)
 ##### FN
 : Fully Noded app
-##### FN2
-: see GW
 ##### Fully Noded wallets
 : support BIP39 recovery words, the seed is encrypted and stored on your device **not** on the node. The node will only ever hold public keys. Your node will build psbt for us that FN will sign (not your Node). Your node verifies the UTXO's
-##### GW 
+##### Gordian Wallet 
 : Gordian Wallet, formerly known as `Fully Noded 2` app, The original name FN2 was a misnaming because it is a different app than FN from its inception. [This comparison](http://github.com/henkvancann/FNcompGordian/FN2_Comparison.md) tries to explain the differences between Fully Noded and Gordian Wallet.
 ##### gap limit 
 : This means you ended with more than 20 consecutive unused addresses in your bitcoin wallet. This could have have happened due to various reasons. [What it is and how to get over it](https://blog.blockonomics.co/bitcoin-what-is-this-gap-limit-4f098e52d7e1)
@@ -91,8 +89,6 @@ We've done our best to protect the privacy of the Github, Telegram group members
 : The keypool is a collection of unused addresses in your wallet. The keypool parameter tells the client how many unused addresses to keep in its pool. The original purpose of the keypool is to allow you to backup your wallet file less frequently and still have access to all your funds in the event of a hard drive failure. However since the invention of Hierarchical Deterministic Wallets (HD wallets, [BIP32](https://en.bitcoin.it/wiki/Deterministic_wallet)): If you have a HD wallet (check the icon on the bottom-right corner in Bitcoin Core), it doesn't matter. If you've created your wallet in an older version of Bitcoin Core, it's not an HD wallet. If that's the case, your keypool is important for backups: your backup has the same 1000 keys, which means you only need to make a new backup after using many different new addresses. If you would limit the keypool size to 20, you'll quickly run out of addresses, and you need to make new backups very often. That's the reason the keypool was increased from 100 to 1000. An important distinction with regrads to FN and Bitcoin Core is that Bitcoin Core is not able to add multisig addresses to the keypool, therefore we rely on the `bitcoin-cli` command `deriveaddresses` to derive multisig addresses on the fly using your multisig descriptors.
 ##### legacy bitcoin address (p2pkh)
 : refers to the accepted common standard to derive non segwit addresses. These addresses always begin with a 1.
-##### Libwally 
-: an open source library (https://github.com/ElementsProject/libwally-core) used by Fully Noded, (https://github.com/blockchain/libwally-swift/blob/master/README.md) which allows us to utilize BIP39 directly in the app meaning you can easily recover your Fully Noded wallet with Electrum for example. Now when you create a wallet you will get a 12 word recovery phrase (no passphrase by default) to backup and keep safe.
 ##### ledger Nano S/X
 : types of hardware wallets to store, send and receive crypto currencies
 ##### Nano 
@@ -117,8 +113,6 @@ We've done our best to protect the privacy of the Github, Telegram group members
 : – Segregated Witness – or SegWit in short – reduced the transaction data’s size to allow for faster transactions, better scalability and decreased fees. Native SegWit (bech32) enhanced this even further and includes even lower fees. Not all exchanges and wallet providers support sending Bitcoin to a Native SegWit address yet, which is why you are presented both options in Ledger Live. Transactions between all 3 address types are possible
 ##### SSH
 : Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH.
-##### Standup app
-: is a personal one-click Mac OS installer for Bitcoin Core and Tor that will present a QuickConnect QR code that can be used to pair mobile wallets for remote use over Tor V3. [Read more](https://github.com/BlockchainCommons/GordianSystem)
 ##### satoshi
 : 0.000000001 BTC. A satoshi is the smallest unit of a bitcoin, equivalent to 100 millionth of a bitcoin.
 ##### signed raw transaction 
@@ -129,7 +123,6 @@ We've done our best to protect the privacy of the Github, Telegram group members
 :Tor is free and open-source software for enabling anonymous communication. The name derived from the acronym for the original software project name "The Onion Router". [Read more in Wikipedia](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
 ##### UTXO's
 : Unspend transaction Outputs; UTXO stands for the unspent output from bitcoin transactions. Each bitcoin transaction begins with coins used to balance the ledger. UTXOs are processed continuously and are responsible for beginning and ending each transaction. Confirmation of transaction results in the removal of spent coins from the UTXO database. But a record of the spent coins still exists on the ledger. **for newbies**: UTXO is unspent bitcoin that you can "see" in your wallet and on the blockchain. It is an address and amount of sathosis. As soon as you spend the money, it won't add to your wallet balance anymore and therefore will only.
-
 
 # Q&A section General
 
@@ -144,18 +137,7 @@ We believe everyone should be running a node. We therefore set upon this mission
 
 ## Why use Nodl?
 
-There are a few advantages to this setup:
-
-**Security**. A mobile wallet allows you to keep your private keys away from devices directly connected to the internet.
-
-**Autonomy**. Maintaining your own full node ensures that you can't be censored, tracked, or otherwise taken advantage of by someone else. It ensures your self-sovereignty. (@Appelcline)
-
-
-## What OSes can the Gordian System run on?
-
-The Gordian server runs on MacOS, though the Bitcoin Standup technology that's at its foundation can also be run on UNIX machines, with the Linodes running Debian being particularly well tested.
-
-The Gordian Wallets runs under iOS. (@Appelcline)
+## What OS does Nodl run on?
 
 # Q&A section Userinterface
 <img src="./Images/nodl-welcome.png" alt="welcome screen after input local url" border="0" width="600"><br/>
