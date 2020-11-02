@@ -157,6 +157,8 @@ The Gordian server runs on MacOS, though the Bitcoin Standup technology that's a
 The Gordian Wallets runs under iOS. (@Appelcline)
 
 # Q&A section Userinterface
+<img src="./Images/nodle-welcome.png" alt="welcome screen after input local url" border="0" width="400"><br/>
+<img src="./Images/nodle-status-public.png" alt="status screen without administrator login" border="0" width="400"><br/>
 
 ## Why should I download the supplied PGP Pub Key?
 
